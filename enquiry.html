@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquire | Studes</title>
+  <meta name="description" content="Enquire about a listing as a student, or register your property as a landlord on Studes.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Studes</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Listings</a></li>
+        <li><a href="enquiry.html" class="active">Enquire</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Make an Enquiry</h1>
+      <p>Tell us whether you are a student looking for a room, or a landlord looking to list a property.</p>
+    </section>
+
+    <section class="content-block">
+      <form action="#" method="post" id="enquiry-form">
+        <div class="form-group">
+          <label for="enquiry-type">I am a:</label>
+          <select id="enquiry-type" name="enquiry-type" required>
+            <option value="">-- Select an option --</option>
+            <option value="student">Student looking for accommodation</option>
+            <option value="landlord">Landlord wanting to list a property</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Submit Enquiry</button>
+      </form>
+      <p class="form-note">Note: Client-side validation and submission handling will be implemented with JavaScript in Part 3.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Studes. All rights reserved.</p>
+    <nav class="footer-nav">
+      <a href="about.html">About</a>
+      <a href="services.html">Listings</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
