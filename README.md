@@ -2,9 +2,9 @@
 
 ## Student Information
 - **Name:** Ignatious Shingirirai Tsikira
-- **Student Number:** [Insert Student Number]
+- **Student Number:** [ST10541992]
 - **Module:** WEDS5020 — Web Development
-- **Group:** [Insert Group, if applicable]
+- **Group:** 2
 
 ## Project Overview
 Studes is a website project built for the WEDS5020 Portfolio of Evidence. It proposes a web platform that connects students searching for accommodation with landlords who have rooms or units to let near tertiary campuses. The project is being developed in three parts: HTML structure (Part 1), CSS styling and responsive design (Part 2), and JavaScript functionality and SEO (Part 3).
@@ -26,45 +26,4 @@ Studes is a website project built for the WEDS5020 Portfolio of Evidence. It pro
 | Part | Focus | Status |
 |------|-------|--------|
 | Part 1 | Planning, research, HTML structure | Current submission |
-| Part 2 | CSS styling, responsive design | Upcoming |
-| Part 3 | JavaScript functionality, SEO | Upcoming |
-
-## Part 1 Details
-- Target organisation: Studes (approved by lecturer)
-- Website Project Proposal submitted separately (`Studes_Website_Project_Proposal.docx`)
-- Minimum 5 pages created: `index.html`, `about.html`, `services.html`, `enquiry.html`, `contact.html`
-- File structure organised into root HTML files plus `css/`, `js/`, and `images/` folders
-
-*(Part 2 and Part 3 details will follow in future submissions/edits.)*
-
-## Sitemap
-```
-Home (index.html)
-├── About Us (about.html)
-├── Listings (services.html)
-├── Enquire (enquiry.html)
-└── Contact (contact.html)
-```
-
-## File and Folder Structure
-```
-/
-├── index.html
-├── about.html
-├── services.html
-├── enquiry.html
-├── contact.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-└── images/
-    └── listing-placeholder.jpg
-```
-
-## Changelog
-- **[Insert Date]** — Initial project structure created: 5 HTML pages, base CSS, folder structure, and README established.
-
-## References
-- Nielsen, J. (1994) *Usability Engineering*. San Francisco: Morgan Kaufmann.
-- Norman, D.A. (2013) *The Design of Everyday Things: Revised and Expanded Edition*. New York: Basic Books.
+| Part 2 | CSS styling, responsive design 
