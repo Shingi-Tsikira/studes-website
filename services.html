@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Listings | Studes</title>
-  <meta name="description" content="Browse student accommodation listings by campus, price, room type, and amenities.">
+  <title>Enquire | Studes</title>
+  <meta name="description" content="Enquire about a listing as a student, or register your property as a landlord on Studes.">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,8 +15,8 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="services.html" class="active">Listings</a></li>
-        <li><a href="enquiry.html">Enquire</a></li>
+        <li><a href="services.html">Listings</a></li>
+        <li><a href="enquiry.html" class="active">Enquire</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -24,33 +24,44 @@
 
   <main>
     <section class="page-header">
-      <h1>Accommodation Listings</h1>
-      <p>Browse available rooms and units near your campus. Full search and filtering will be added with JavaScript functionality in Part 3.</p>
-    </section>
-
-    <section class="listing-grid">
-      <article class="listing-card">
-        <img src="images/listing-placeholder.jpg" alt="Single room near campus with a bed, desk, and window">
-        <h3>Single Room &mdash; Near Main Campus</h3>
-        <p>R 3 200 / month &middot; 1.2 km from campus &middot; Wi-Fi included</p>
-      </article>
-
-      <article class="listing-card">
-        <img src="images/listing-placeholder.jpg" alt="Shared apartment lounge area">
-        <h3>Shared Apartment &mdash; 2 Bedroom</h3>
-        <p>R 2 500 / month &middot; 0.8 km from campus &middot; Furnished</p>
-      </article>
-
-      <article class="listing-card">
-        <img src="images/listing-placeholder.jpg" alt="Studio flat with kitchenette">
-        <h3>Studio Flat</h3>
-        <p>R 4 000 / month &middot; 2.0 km from campus &middot; Private bathroom</p>
-      </article>
+      <h1>Make an Enquiry</h1>
+      <p>Tell us whether you are a student looking for a room, or a landlord looking to list a property.</p>
     </section>
 
     <section class="content-block">
-      <h2>For Landlords</h2>
-      <p>Have a room or unit to list? <a href="enquiry.html">Get in touch</a> to have your property added to Studes and reach students directly.</p>
+      <form action="#" method="post" id="enquiry-form">
+        <div class="form-group">
+          <label for="enquiry-type">I am a:</label>
+          <select id="enquiry-type" name="enquiry-type" required>
+            <option value="">-- Select an option --</option>
+            <option value="student">Student looking for accommodation</option>
+            <option value="landlord">Landlord wanting to list a property</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Submit Enquiry</button>
+      </form>
+      <p class="form-note">Note: Client-side validation and submission handling will be implemented with JavaScript in Part 3.</p>
     </section>
   </main>
 
