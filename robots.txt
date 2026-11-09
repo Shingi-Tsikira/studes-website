@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /response.html
+
+Sitemap: https://emgpsd.github.io/wede5020-2026-part-3-shingi-tsikira/sitemap.xml

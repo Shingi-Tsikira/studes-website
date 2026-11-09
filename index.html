@@ -1,38 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Studes | Student Accommodation, Simplified</title>
-  <meta name="description" content="Studes connects students searching for accommodation with landlords who have rooms and units to let near campus.">
+  <title>Studes | Student Accommodation Near Campus in Johannesburg &amp; Pretoria</title>
+  <meta name="description" content="Find student accommodation near campus in Johannesburg and Pretoria. Studes connects students with landlords who have rooms and units to let.">
+  <meta name="keywords" content="student accommodation, student housing South Africa, rooms to rent near campus, Johannesburg, Pretoria, landlords, student rooms near Wits, student rooms near University of Pretoria">
+  <meta name="author" content="Ignatious Shingirirai Tsikira">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0b3d91">
+  <link rel="canonical" href="https://emgpsd.github.io/wede5020-2026-part-3-shingi-tsikira/index.html">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Open Graph + Twitter tags control how the page looks when shared on social media -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Studes">
+  <meta property="og:locale" content="en_ZA">
+  <meta property="og:title" content="Studes | Student Accommodation Near Campus in Johannesburg &amp; Pretoria">
+  <meta property="og:description" content="Find student accommodation near campus in Johannesburg and Pretoria. Studes connects students with landlords who have rooms and units to let.">
+  <meta property="og:url" content="https://emgpsd.github.io/wede5020-2026-part-3-shingi-tsikira/index.html">
+  <meta property="og:image" content="https://emgpsd.github.io/wede5020-2026-part-3-shingi-tsikira/images/studes-social-share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Studes - student accommodation in Johannesburg and Pretoria">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Studes | Student Accommodation Near Campus in Johannesburg &amp; Pretoria">
+  <meta name="twitter:description" content="Find student accommodation near campus in Johannesburg and Pretoria. Studes connects students with landlords who have rooms and units to let.">
+  <meta name="twitter:image" content="https://emgpsd.github.io/wede5020-2026-part-3-shingi-tsikira/images/studes-social-share.jpg">
+
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured data (schema.org) helps search engines understand the organisation -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Studes",
+  "url": "https://emgpsd.github.io/wede5020-2026-part-3-shingi-tsikira/",
+  "logo": "https://emgpsd.github.io/wede5020-2026-part-3-shingi-tsikira/images/favicon.png",
+  "description": "Studes connects students searching for accommodation with landlords who have rooms and units to let near campus.",
+  "areaServed": [
+    "Johannesburg",
+    "Pretoria"
+  ],
+  "email": "info@studes.example",
+  "sameAs": [
+    "https://www.facebook.com/",
+    "https://www.instagram.com/",
+    "https://x.com/",
+    "https://www.linkedin.com/"
+  ]
+}
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
+  <!-- Header and primary navigation -->
   <header>
-    <div class="logo">Studes</div>
-    <nav>
+    <a class="logo" href="index.html" aria-label="Studes home">Studes</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav">&#9776;</button>
+    <nav id="siteNav" aria-label="Primary">
       <ul>
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="services.html">Listings</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
         <li><a href="enquiry.html">Enquire</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero">
       <h1>Find Student Accommodation Without the Guesswork</h1>
       <p>Studes brings students and landlords together in one trustworthy place &mdash; no more scattered WhatsApp groups or noticeboard flyers.</p>
       <a href="services.html" class="btn">Browse Listings</a>
       <a href="enquiry.html" class="btn btn-secondary">List a Property</a>
+      <div class="hero-strip">
+      <img src="images/gallery/thumbs/single-room-desk-braamfontein.jpg" srcset="images/gallery/thumbs/single-room-desk-braamfontein.jpg 480w, images/gallery/single-room-desk-braamfontein.jpg 1200w" sizes="(max-width: 768px) 50vw, 25vw" width="480" height="300" alt="Single room with a study desk, 1.2 km from campus in Braamfontein">
+      <img src="images/gallery/thumbs/shared-apartment-lounge-hatfield.jpg" srcset="images/gallery/thumbs/shared-apartment-lounge-hatfield.jpg 480w, images/gallery/shared-apartment-lounge-hatfield.jpg 1200w" sizes="(max-width: 768px) 50vw, 25vw" width="480" height="300" alt="Furnished lounge in a two-bedroom shared apartment in Hatfield">
+      <img src="images/gallery/thumbs/studio-flat-kitchenette-braamfontein.jpg" srcset="images/gallery/thumbs/studio-flat-kitchenette-braamfontein.jpg 480w, images/gallery/studio-flat-kitchenette-braamfontein.jpg 1200w" sizes="(max-width: 768px) 50vw, 25vw" width="480" height="300" alt="Studio flat with a kitchenette in Braamfontein">
+      <img src="images/gallery/thumbs/campus-walkway-student-path.jpg" srcset="images/gallery/thumbs/campus-walkway-student-path.jpg 480w, images/gallery/campus-walkway-student-path.jpg 1200w" sizes="(max-width: 768px) 50vw, 25vw" width="480" height="300" alt="Walkway between student accommodation and the main campus buildings">
+      </div>
     </section>
 
     <section class="intro">
       <h2>Why Studes?</h2>
       <p>Finding student accommodation always seems to happen at the worst possible time. Studes gives students a structured way to search and compare rooms, and gives landlords a direct line to the exact audience they are trying to reach.</p>
+    </section>
+
+    <section aria-labelledby="how-heading">
+      <h2 id="how-heading">How It Works</h2>
+      <ol class="steps">
+        <li class="step-card"><span class="step-number" aria-hidden="true">1</span><h3>Browse</h3><p>Filter rooms by type, price and area on the <a href="services.html">Listings</a> page, or look through the <a href="gallery.html">photo gallery</a> first.</p></li>
+        <li class="step-card"><span class="step-number" aria-hidden="true">2</span><h3>Enquire</h3><p>Send one <a href="enquiry.html">enquiry</a> and get an instant cost estimate and a reference number for your records.</p></li>
+        <li class="step-card"><span class="step-number" aria-hidden="true">3</span><h3>Move in</h3><p>We confirm availability with the landlord and you move in close to campus, with a deposit and fees that are clear from the start.</p></li>
+      </ol>
     </section>
 
     <section class="features">
@@ -52,16 +117,55 @@
         </article>
       </div>
     </section>
+
+    <section aria-labelledby="popular-heading">
+      <h2 id="popular-heading">Popular Right Now</h2>
+      <div class="listing-grid">
+      <article class="listing-card" data-type="single" data-price="3200">
+        <img src="images/gallery/thumbs/single-room-desk-braamfontein.jpg" srcset="images/gallery/thumbs/single-room-desk-braamfontein.jpg 480w, images/gallery/single-room-desk-braamfontein.jpg 1200w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 45vw, 340px" width="480" height="300" alt="Single room with a study desk, 1.2 km from campus in Braamfontein" loading="lazy">
+        <span class="badge">Single room</span>
+        <h3>Single Room &mdash; Near Main Campus</h3>
+        <p class="listing-meta">R&nbsp;3&nbsp;200 / month &middot; 1.2 km from campus &middot; Wi-Fi included &middot; Braamfontein</p>
+        <a href="enquiry.html?type=student&amp;room=single&amp;area=braamfontein" class="card-link" aria-label="Enquire about Single Room &amp;mdash; Near Main Campus in Braamfontein">Enquire about this listing &rarr;</a>
+      </article>
+      <article class="listing-card" data-type="shared" data-price="2500">
+        <img src="images/gallery/thumbs/shared-apartment-lounge-hatfield.jpg" srcset="images/gallery/thumbs/shared-apartment-lounge-hatfield.jpg 480w, images/gallery/shared-apartment-lounge-hatfield.jpg 1200w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 45vw, 340px" width="480" height="300" alt="Furnished lounge in a two-bedroom shared apartment in Hatfield" loading="lazy">
+        <span class="badge">Shared apartment</span>
+        <h3>Shared Apartment &mdash; 2 Bedroom</h3>
+        <p class="listing-meta">R&nbsp;2&nbsp;500 / month &middot; 0.8 km from campus &middot; Furnished &middot; Hatfield</p>
+        <a href="enquiry.html?type=student&amp;room=shared&amp;area=hatfield" class="card-link" aria-label="Enquire about Shared Apartment &amp;mdash; 2 Bedroom in Hatfield">Enquire about this listing &rarr;</a>
+      </article>
+      <article class="listing-card" data-type="studio" data-price="4000">
+        <img src="images/gallery/thumbs/studio-flat-kitchenette-braamfontein.jpg" srcset="images/gallery/thumbs/studio-flat-kitchenette-braamfontein.jpg 480w, images/gallery/studio-flat-kitchenette-braamfontein.jpg 1200w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 45vw, 340px" width="480" height="300" alt="Studio flat with a kitchenette in Braamfontein" loading="lazy">
+        <span class="badge">Studio flat</span>
+        <h3>Studio Flat</h3>
+        <p class="listing-meta">R&nbsp;4&nbsp;000 / month &middot; 2.0 km from campus &middot; Private bathroom &middot; Braamfontein</p>
+        <a href="enquiry.html?type=student&amp;room=studio&amp;area=braamfontein" class="card-link" aria-label="Enquire about Studio Flat in Braamfontein">Enquire about this listing &rarr;</a>
+      </article>
+      </div>
+      <p><a class="section-link" href="services.html">See all listings</a> or <a class="section-link" href="gallery.html">explore the photo gallery</a>.</p>
+    </section>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Studes. All rights reserved.</p>
-    <nav class="footer-nav">
+    <ul class="social-links" aria-label="Social media">
+      <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Studes on Facebook (opens in a new tab)">Facebook</a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Studes on Instagram (opens in a new tab)">Instagram</a></li>
+      <li><a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="Studes on X (opens in a new tab)">X</a></li>
+      <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="Studes on LinkedIn (opens in a new tab)">LinkedIn</a></li>
+    </ul>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="services.html">Listings</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="enquiry.html">Enquire</a>
       <a href="contact.html">Contact</a>
     </nav>
+    <p>&copy; 2026 Studes. All rights reserved. Studes is a fictional organisation created for a web development portfolio.</p>
   </footer>
 
+  <script src="js/script.js"></script>
 </body>
 </html>
