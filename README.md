@@ -7,7 +7,7 @@
 - **Submission:** Part 3 (final Portfolio of Evidence)
 
 ## Links
-- **Live website (GitHub Pages):** https://emgpsd.github.io/wede5020-2026-part-3-shingi-tsikira/
+- **Live website (GitHub Pages):** https://shingi-tsikira.github.io/studes-website
 - **GitHub repository:** https://github.com/EMGPSD/wede5020-2026-part-3-shingi-tsikira
 
 ## Project Overview
@@ -121,8 +121,8 @@ Mobile menu open: ![Mobile menu](screenshots/mobile-nav-open.png) · Custom 404 
 ```html
 <title>Studes | Student Accommodation Near Campus in Johannesburg &amp; Pretoria</title>
 <meta name="description" content="Find student accommodation near campus in Johannesburg and Pretoria...">
-<link rel="canonical" href="https://emgpsd.github.io/wede5020-2026-part-3-shingi-tsikira/index.html">
-<meta property="og:image" content="https://emgpsd.github.io/wede5020-2026-part-3-shingi-tsikira/images/studes-social-share.jpg">
+<link rel="canonical" href="https://shingi-tsikira.github.io/studes-website
+<meta property="og:image" content="https://shingi-tsikira.github.io/studes-website/images/studes-social-share.jpg">
 ```
 
 ## Accessibility
@@ -137,7 +137,7 @@ Automated browser tests (Playwright) cover: listing filters, gallery filters and
 1. Push this folder to the GitHub repository.
 2. In the repository: **Settings → Pages → Deploy from a branch → `main` / `(root)` → Save**.
 3. Wait for the green "Your site is live" message, then open the live URL.
-4. Replace the placeholder `https://emgpsd.github.io/wede5020-2026-part-3-shingi-tsikira` with the real URL in all files (VS Code: Ctrl+Shift+H, "Replace All"). It appears in canonical tags, Open Graph tags, JSON-LD, `sitemap.xml`, `robots.txt`, `404.html` and this README.
+4. Replace the placeholder `https://shingi-tsikira.github.io/studes-website` with the real URL in all files (VS Code: Ctrl+Shift+H, "Replace All"). It appears in canonical tags, Open Graph tags, JSON-LD, `sitemap.xml`, `robots.txt`, `404.html` and this README.
 5. Commit and push again, then test every page and form on the live site.
 
 <!-- Add after deploying: ![GitHub Pages settings](screenshots/github-pages-settings.png) and a live-site screenshot -->
